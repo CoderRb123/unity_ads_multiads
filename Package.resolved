@@ -1,0 +1,42 @@
+{
+  "originHash" : "104ea46b5c93aa06e5ee7e2a126ce0a5d64436135ea3d5f73870b1ae69d94df2",
+  "pins" : [
+    {
+      "identity" : "ipapi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/arturgrigor/IPAPI.git",
+      "state" : {
+        "revision" : "7394135f9162ab7127a5ebd94d48e797dc516414",
+        "version" : "3.0.0"
+      }
+    },
+    {
+      "identity" : "keychain-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/evgenyneu/keychain-swift.git",
+      "state" : {
+        "revision" : "5e1b02b6a9dac2a759a1d5dbc175c86bd192a608",
+        "version" : "24.0.0"
+      }
+    },
+    {
+      "identity" : "multiadsinterface",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CoderRb123/MultiAdsInterface.git",
+      "state" : {
+        "revision" : "7ea4b564add8898f4dfaa3818d0adddcb2572260",
+        "version" : "1.0.4"
+      }
+    },
+    {
+      "identity" : "swiftyjson",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftyJSON/SwiftyJSON.git",
+      "state" : {
+        "revision" : "af76cf3ef710b6ca5f8c05f3a31307d44a3c5828",
+        "version" : "5.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}
