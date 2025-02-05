@@ -5,7 +5,18 @@ import MultiAdsInterface
 import SwiftUI
 import UnityAds
 @available(iOS 13.0, *)
-public class UnityAdsMultiAds : @preconcurrency NetworkInterface{
+
+
+public  class UnityAdsMultiAds  {
+    public init(){
+        
+    }
+    
+    
+    public let unityAds:UnityAdsMulti = UnityAdsMulti()
+}
+@available(iOS 13.0, *)
+public class UnityAdsMulti : @preconcurrency NetworkInterface{
     public func initNetwork() -> Bool {
         let configID: String? = ServerConfig.sharedInstance.adNetworkIds?["unity"]?.configId
     
