@@ -11,7 +11,7 @@ let package = Package(
             targets: ["unity_ads_multiads"]),
     ],
     dependencies: [
-        .package(name:"MultiAdsInterface",url: "https://github.com/CoderRb123/MultiAdsInterface.git",from: "1.0.4"),
+        .package(name:"MultiAdsInterface",url: "https://github.com/CoderRb123/MultiAdsInterface.git",from: "1.1.5"),
     ],
     targets: [
         .target(
